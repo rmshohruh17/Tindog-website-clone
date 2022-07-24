@@ -21,26 +21,25 @@
 
     <div class="container-fluid">
 
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">tindog</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div  class="navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav ms-auto">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">tindog</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarSupportedContent" style="" >
+             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contanct</a>
+                  <a class="nav-link" href="#footer">Contanct</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#pricing">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Download</a>
+                  <a class="nav-link" href="#cta">Download</a>
                 </li>
             </ul>
-        </div>
-    </nav>
+          </div>
+       </nav>
 
     <!-- Title -->
   <div class="row">
@@ -58,8 +57,6 @@
   </section>
 
   <!-- Features -->
-
-
   <section class="features">
     <div class="row">
       <div class="col-lg-4">
@@ -129,7 +126,7 @@
 
   <!-- Pricing -->
 
-<section class="pricing">
+<section class="pricing" id="pricing">
 
     <h2 class="pricing-head">A Plan for Every Dog's Needs</h2>
     <p class="pricing-decp">Simple and affordable price plans for your and your dog.</p>
@@ -183,29 +180,26 @@
   </div>
 </section>
 
-<div class="box-shadow">
-  Hello World!
-</div>
-
-
-
   <!-- Call to Action -->
-
-  <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+  <section class="cta" id="cta">
+    <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg btn-download cta-btn"><i class="fa-brands fa-app-store-ios"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg btn-download cta-btn"><i class="fa-brands fa-google-play"></i> Download</button>
   </section>
 
-
   <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer-links footer-social-media fa-2x">
+      <a href="#footer"class="footer-links fa-brands fa-linkedin-in"></a>
+      <a class="footer-links fa-brands fa-instagram"></a>
+      <a href="#footer" class="footer-links fa-brands fa-facebook-f"></a>
+      <a href="#footer" class="footer-links fa-brands fa-telegram"></a>
+      <a href="#footer" class="footer-links fa-solid fa-envelope"></a>
 
-  <footer id="footer">
+    </div>
 
-    <p>© Copyright TinDog</p>
 
+    <p class="copyright">© Copyright TinDog</p>
   </footer>
 
 </body>

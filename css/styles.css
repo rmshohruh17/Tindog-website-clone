@@ -1,5 +1,3 @@
-
-
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -9,11 +7,16 @@ body{
 }
 
 .rotate{
-    transform: rotate(25deg);
+    /* transform: rotate(25deg);
     width: 25%;
     margin-left: 25px;
     position: absolute;
+    right: 23%; */
+
+    transform: rotate(25deg);
+    width: 23%;
     right: 23%;
+    position: absolute;
 }
 
 .features {
@@ -32,10 +35,7 @@ h1 {
   line-height: 1.5;
 }
 
-/*
- .navbar-brand:hover {
-   color: #ef8172;
-} */
+
 
 .features-icons {
   color: #ef8172;
@@ -160,4 +160,57 @@ h2 {
 
 .card:hover {
   box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* cta section */
+
+.cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 5%;
+}
+
+.cta-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+  width: 60%;
+  margin: auto;
+}
+
+.cta-btn {
+  margin-bottom: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 4% 10%;
+  padding-bottom: 2%;
+}
+
+.footer-links{
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.copyright {
+  color: #9e9c98;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+/* Media Queries */
+
+@media (max-width: 1028px) {
+
+  .rotate{
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
 }
